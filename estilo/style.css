@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #333;
+    --cor1: #fff;
+    --cor2: #f9f9f9;
+    --cor3: #f39c12;
+    --cor4: #2c3e50;
+    --cor5: #555;
+    --cor6: #34495e;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: var(--cor4);
+    background-color: var(--cor2);
+}
+header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: #fff;
+    padding: 9px 0px;
+    box-shadow: o 2px 4px rgb(0, 0, 0, 0.1);
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+header .logo > img {
+  width: 90px;
+  height: 90px;
+}
+header h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+nav > a {
+    color: #f9f9f9;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    transition: initial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+nav > a:hover {
+    background-color: #f39c12;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.445);
+}
+aside {
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.486);
+}
+aside h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: center;
+}
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+section p {
+    background-color: var(--cor4);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0px;
+    margin-bottom: 10px;
+    text-indent: 30px;
+
+}
+
+ol > li {
+    text-indent: 30px;
+    list-style-position: inside;
+}
+article {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-size: center;
+    border-radius: 10px;
+
+}
+ul > li {
+    text-indent: 30px;
+    list-style-position: inside;
+}
+footer{
+    background-color: var(--cor6);
+}
+footer > p {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    color: var(--cor1);
+
+}
